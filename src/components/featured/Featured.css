@@ -1,0 +1,74 @@
+.featured{
+    height:90vh;
+    position: relative;
+}
+.featured-category{
+    position:absolute;
+    top:80px;
+    left:50px;
+    font-size:30px;
+    font-weight:500;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#genre{
+    cursor: pointer;
+    background-color: black;
+    border:1px solid white;
+    color:white;
+    margin-left: 20px;
+    padding: 5px;
+}
+.featured-poster{
+    width:100%;
+    height:100vh;
+    object-fit: cover;
+}
+.gradient-overlay {
+    position: relative; /* Make sure the container has positioning context */
+
+  }
+  
+  .gradient-overlay::after {
+    content: ""; /* Create a pseudo-element for the gradient overlay */
+    position: absolute; /* Position the overlay element over the image */
+    bottom: 0; /* Place it at the bottom */
+    left: 0;
+    width: 100%; /* Cover the entire width of the image */
+    height: 100px; /* Adjust the height of the gradient overlay */
+    background: linear-gradient(to bottom, transparent, black ); /* Define the gradient */
+  }
+.info{
+    width:35%;
+    position: absolute;
+    left:50px;
+    bottom:80px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+}
+.info img{
+    width:400px
+}
+.desc{
+    margin:20px;
+    font-size: 16px;
+
+}
+.featured-buttons{
+    display:flex;
+}
+.featured-buttons button{
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right:10px;
+    cursor:pointer;
+}

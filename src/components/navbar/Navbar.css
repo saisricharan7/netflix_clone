@@ -1,0 +1,64 @@
+.navbar{
+    width: 100%;
+    color:white;
+    font-size: 15px;
+    position: fixed;
+    top:0;
+    z-index: 100;
+
+    background:linear-gradient(to top,transparent 0%, rgb(0,0,0,0.5)50%);
+}
+.scrolled{
+    background-color: black;
+}
+.container{
+    padding: 0px 50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+.left{
+    display: flex;
+    align-items:center;
+}
+.left span{
+    margin-right: 20px;
+    cursor: pointer;  
+    white-space: nowrap;
+}
+.left img{
+    height: 55px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.right{
+    display: flex;
+    align-items:center;
+}
+.right .nav-icons{
+    margin-right:20px;
+    cursor: pointer;
+}
+
+.right span{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.profile-options{
+    display:none;
+    background-color: black;
+    border-radius: 5px;
+
+}
+.profile-options span{
+    padding:10px 25px 10px 10px;
+    cursor: pointer;
+}
+.nav-profile:hover .profile-options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+}

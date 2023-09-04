@@ -1,0 +1,8 @@
+.home-container{
+    background-color: black;
+    overflow: hidden;
+}
+
+.home-container img{
+    width: 100%;
+}
