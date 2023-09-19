@@ -41,7 +41,7 @@
     cursor: pointer;
 }
 
-.right span{
+.right > span{
     margin-right: 20px;
     cursor: pointer;
 }
@@ -49,10 +49,10 @@
     display:none;
     background-color: black;
     border-radius: 5px;
-
+    margin-right: 20px;
 }
 .profile-options span{
-    padding:10px 25px 10px 10px;
+    padding:10px;
     cursor: pointer;
 }
 .nav-profile:hover .profile-options{
@@ -61,4 +61,8 @@
     align-items: center;
     position: absolute;
     right: 10px;
+}
+.navbar-link{
+    color:inherit;
+    text-decoration: none;
 }
